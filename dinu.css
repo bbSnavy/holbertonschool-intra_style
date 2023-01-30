@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {
+    --color-0: #1E0227;
+    --color-1: #B91372;
+    --color-2: #03F7EB;
+    --color-3: #F96900;
+    --color-4: #FFFC31;
+    --color-5: #50514F;
+    --color-6: #310540;
+    --color-7: #380f46;
+    --color-8: #05bd07;
+    --color-9: #660f4f;
+    --color-10: #633055;
+    --color-11: #16070e;
+    --color-12: #41001e;
+    --color-13: #110108;
+    --color-14: #0c900d;
+}
+
+body {
+  background: 
+    repeating-conic-gradient(var(--color-12) 0% 25%, var(--color-13) 0% 50%) 
+      50% / 100px 100px;
+    color: var(--color-2) !important;
+    border-color: var(--color-3);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold !important;
+}
+
+.sidebar {
+    background: var(--color-10) !important;
+    color: var(--color-2) !important;
+}
+
+.sidebar .logo-container {
+    background: var(--color-10) !important;
+    color: var(--color-2) !important;
+}
+
+.sidebar > ul > li:last-child {
+    background: var(--color-10) !important;
+}
+
+.panel {
+    background: var(--color-1) !important;
+    color: var(--color-2) !important;
+    border-radius: 2px;
+}
+
+.panel.panel-tile {
+    background: var(--color-1) !important;
+}
+
+.panel-default > .panel-heading {
+    background: var(--color-1) !important;
+}
+
+.panel.panel-default .panel-heading .panel-title {
+    color: var(--color-2) !important;
+}
+
+.panel-body {
+    background: var(--color-6) !important;
+    color: var(--color-2) !important;
+}
+
+.panel-footer {
+    background: var(--color-7) !important;
+    border-radius: 0 !important;
+}
+
+.list-group-item {
+    background: var(--color-6) !important;
+}
+
+pre, code {
+    background: var(--color-11) !important;
+    color: var(--color-4) !important;
+    font-family: 'Space Mono', monospace;
+}
+
+.introjs-floating {
+    background: var(--color-5) !important;
+    color: var(--color-2) !important;
+}
+
+.modal-content {
+    background: var(--color-9) !important;
+    color: var(--color-2) !important;
+}
+
+.correction-request-timeline .timeline-event, .well {
+    background: var(--color-11) !important;
+    color: var(--color-2) !important;
+}
+
+.alert-info {
+    background: var(--color-1) !important;
+    font-size: 24px;
+}
+
+.alert-info:before {
+    content: "מזל טוב" !important;
+}
+
+.alert-info > strong {
+    display: none;
+}
+
+.highcharts-background {
+    fill: var(--color-0) !important;
+    color: white;
+}
+
+.student-home .self-paced .progress-card .progress-information {
+    background: var(--color-0) !important;
+}
+
+.student-home .self-paced .panel {
+    height: inherit;
+}
+
+.student-home .self-paced .progress-card .progress-pathway {
+    height: 500px;
+}
+
+.correction-request-timeline .timeline-event.passed.requirement {
+    border: 2px solid var(--color-8) !important;
+    border-radius: 2px;
+}
+
+.correction-request-timeline .timeline-event.passed.requirement .colored {
+    color: var(--color-2) !important;
+}
+
+.correction-request-timeline .timeline-event.failed.requirement {
+    border: 2px solid var(--color-3) !important;
+    border-radius: 2px;
+}
+
+.correction-request-timeline .timeline-event.failed.requirement .colored {
+    color: var(--color-2) !important;
+}
+
+.correction-request-timeline .timeline-event.passed.code {
+    border: 2px solid var(--color-14) !important;
+    border-radius: 2px;
+}
+
+.requirement .fa-check-circle::before {
+    content: "\f1b0" !important;
+}
+
+.code .fa-check-circle::before {
+    content: "\f135" !important;
+}
+
+.failed .fa-times-circle::before {
+    content: "死" !important;
+}
+
+.correction-request-timeline .timeline-event.passed.code .colored {
+    color: var(--color-2) !important;
+}
+
+.spinner > div {
+    background: var(--color-3) !important;
+}
+
+.logged_out_form {
+    background: var(--color-0) !important;
+    box-shadow: none;
+}
+
+.profile-pic {
+    box-shadow: none;
+}
+
+.project-circle {
+    box-shadow: none !important;
+}
+
+time {
+    box-shadow: none !important;
+}
+
+#student-switch-curriculum {
+    background: var(--color-11) !important;
+}
+
+.form-control {
+    background: none;
+    color: white;
+}
