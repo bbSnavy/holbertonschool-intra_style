@@ -1,0 +1,108 @@
+body {
+    background: #1a191b;
+    color: #eff2ef;
+    border-color: #181719;
+}
+
+.sidebar {
+    background: #211f22;
+    color: #eff2ef;
+}
+
+.sidebar .logo-container {
+    background: #3e3b40;
+    color: #eff2ef;
+}
+
+.sidebar > ul > li:last-child {
+    background: #3e3b40;
+}
+
+.panel {
+    background: #211f22;
+    color: #eff2ef;
+}
+
+.panel.panel-tile {
+    background: #181719;
+}
+
+.panel-default > .panel-heading {
+    background: #221f22;
+}
+
+.panel.panel-default .panel-heading .panel-title {
+    color: #eff2ef;
+}
+
+.panel-body {
+    background: #211f22;
+    color: #eff2ef;
+}
+
+.panel-footer {
+    background: #221f22;
+}
+
+.list-group-item {
+    background: #2c292d;
+}
+
+pre, code {
+    background: #2c292d;
+    color: #eff2ef;
+}
+
+.introjs-floating {
+    background: #3e3b3f;
+    color: #eff2ef;
+}
+
+.modal-content {
+    background: #3e3b3f;
+    color: #eff2ef;
+}
+
+.correction-request-timeline .timeline-event, .well {
+    background: #211f22;
+    color: #eff2ef;
+}
+
+.alert-info {
+    background: #2c292d;
+}
+
+.highcharts-background {
+    fill: #181719;
+    color: white;
+}
+
+.student-home .self-paced .progress-card .progress-information {
+    background: #211f22;
+}
+
+.logged_out_form {
+    background: #211f22;
+    box-shadow: none;
+}
+
+.profile-pic {
+    box-shadow: none;
+}
+
+.project-circle {
+    box-shadow: none !important;
+}
+
+time {
+    box-shadow: none !important;
+}
+
+#student-switch-curriculum {
+    background: #181719 !important;
+}
+
+.form-control {
+    background: none;
+    color: white;
+}
