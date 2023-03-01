@@ -197,3 +197,7 @@ time {
     background: none;
     color: white;
 }
+
+.pre-check-message img {
+    content: url("https://i.pinimg.com/originals/55/9a/bd/559abdca8184e3d15245fca6422bc502.gif");
+}
